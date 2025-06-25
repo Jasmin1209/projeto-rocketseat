@@ -34,7 +34,8 @@ body * {
   color: var(--text-color);
 }
 #container {
-  width: 360px; /*largura da caixa*/
+  width: 100%; /*largura da caixa*/
+  max-width: 558px;
   margin: 56px auto 0px;
   padding: 0 24px;
 }
