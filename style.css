@@ -12,19 +12,19 @@ body {
 
 :root {
   --text-color: white;
-  --bg-url: url(./assets/bg-mobile.jpg);
-  --stroke-color: rgba(255, 255, 255, 0.5);
-  --surface-color: rgba(255, 255, 255, 0.1);
-  --surface-color-hover: rgba(255, 255, 255, 0.05);
-  --highlight-color: rgba(255, 255, 255, 0.2);
+  --bg-url: url(./assets/bg-mobile2.jpg);
+  --stroke-color: rgba(0, 255, 255, 0.5); /*Borda dos botões/lista*/
+  --surface-color: rgba(0, 255, 255, 0.1); /*Cor de fundo dos botões*/
+  --surface-color-hover: rgba(241, 26, 26, 0.05); /*Cor de fundo (hover)*/
+  --highlight-color: rgba(2, 255, 255, 0.2);
   --switch-bg-url: url(./assets/moon-stars.svg);
 }
 
 .Light {
   --text-color: black;
-  --bg-url: url(./assets/bg-mobile-light.jpg);
-  --stroke-color: rgba(0, 0, 0, 0.5);
-  --surface-color: rgba(0, 0, 0, 0.05);
+  --bg-url: url(./assets/bg-mobile-light2.jpg);
+  --stroke-color: rgba(255, 255, 255, 0.5);
+  --surface-color: rgba(225, 225, 225, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(0, 0, 0, 0.1);
   --switch-bg-url: url(./assets/sun.svg);
@@ -160,11 +160,11 @@ footer {
 /*media queries*/
 @media (min-width: 700px) {
   :root {
-    --bg-url: url(./assets/bg-desktop.jpg);
+    --bg-url: url(./assets/bg-desktop2.jpg);
   }
 
   .Light {
-    --bg-url: url(./assets/bg-desktop-light.jpg);
+    --bg-url: url(./assets/bg-desktop-light2.jpg);
   }
 }
 
