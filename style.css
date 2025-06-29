@@ -13,20 +13,22 @@ body {
 :root {
   --text-color: white;
   --bg-url: url(./assets/bg-mobile2.jpg);
-  --stroke-color: rgba(0, 255, 255, 0.5); /*Borda dos botões/lista*/
-  --surface-color: rgba(0, 255, 255, 0.1); /*Cor de fundo dos botões*/
-  --surface-color-hover: rgba(241, 26, 26, 0.05); /*Cor de fundo (hover)*/
-  --highlight-color: rgba(2, 255, 255, 0.2);
+  --stroke-color: rgba(225, 255, 255, 0.5); /*Borda dos botões/lista*/
+  --surface-color: rgba(255, 255, 255, 0.1); /*Cor de fundo dos botões*/
+  --surface-color-hover: rgba(137, 207, 240, 1); /*Cor de fundo (hover)*/
+  --highlight-color: rgba(173, 216, 230, 0.5);
+  --container-color: rgba(173, 216, 230, 0.5);
   --switch-bg-url: url(./assets/moon-stars.svg);
 }
 
 .Light {
   --text-color: black;
   --bg-url: url(./assets/bg-mobile-light2.jpg);
-  --stroke-color: rgba(255, 255, 255, 0.5);
+  --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(225, 225, 225, 0.05);
-  --surface-color-hover: rgba(0, 0, 0, 0.02);
-  --highlight-color: rgba(0, 0, 0, 0.1);
+  --surface-color-hover: rgba(199, 21, 133, 0.3);
+  --highlight-color: rgba(199, 21, 133, 0.3);
+  --container-color: rgba(199, 21, 133, 0.1);
   --switch-bg-url: url(./assets/sun.svg);
 }
 
@@ -39,6 +41,7 @@ body * {
   max-width: 558px;
   margin: 56px auto 0px;
   padding: 0 24px;
+  background-color: var(--container-color);
 }
 
 /*Profile*/
