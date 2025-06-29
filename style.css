@@ -17,7 +17,7 @@ body {
   --surface-color: rgba(255, 255, 255, 0.1); /*Cor de fundo dos botões*/
   --surface-color-hover: rgba(137, 207, 240, 1); /*Cor de fundo (hover)*/
   --highlight-color: rgba(173, 216, 230, 0.5);
-  --container-color: rgba(173, 216, 230, 0.5);
+  --container-color: rgba(25, 25, 112, 0.5);
   --switch-bg-url: url(./assets/moon-stars.svg);
 }
 
@@ -37,9 +37,9 @@ body * {
   color: var(--text-color);
 }
 #container {
-  width: 100%; /*largura da caixa*/
+  width: 50%; /*largura da caixa*/
   max-width: 558px;
-  margin: 56px auto 0px;
+  margin: 50px auto 10px;
   padding: 0 24px;
   background-color: var(--container-color);
 }
